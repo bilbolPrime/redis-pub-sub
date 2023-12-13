@@ -1,6 +1,6 @@
-# Redis Pub Sub
+# Multi-Layered Caching Redis Pub Sub
 
-A simple Redis pub sub implementation. Clients use memory cache and fall back to a cenetralized redis cache when the memory cache is not set. The clients also subscribe to redis to clear the memory cache should cache be cleared or set / updated.
+A simple multi-layered caching Redis pub sub implementation. Clients use memory cache and fall back to a cenetralized redis cache when the memory cache is not set. The clients also subscribe to redis to clear the memory cache should cache be cleared or set / updated.
 
 # Environment Setup
 
